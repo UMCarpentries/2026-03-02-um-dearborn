@@ -5,9 +5,7 @@ dependencies:
   - ipykernel
   - jupyter
   - jupyterlab
-  - matplotlib
   - numpy
   - pandas
-  - plotnine
-  - plotly
-  - seaborn
+  - altair
+  - vega_datasets

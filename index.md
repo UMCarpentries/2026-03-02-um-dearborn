@@ -13,8 +13,8 @@ humandate: "March 2-3, 2026"    # human-readable dates for the workshop (e.g., "
 humantime: "9:15 am - 4:45 pm EST"    # human-readable times for the workshop e.g., "9:00 am - 4:30 pm CEST (7:00 am - 2:30 pm UTC)"
 startdate: 2026-03-02      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2026-03-03        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
-instructor: ["Fred Feng", "instructor two"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
-helper: ["helper one", "helper two"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
+instructor: ["Fred Feng", "Gandhimathi Padmanaban"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
+helper: ["Duha Alkurdi"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["fredfeng@umich.edu"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes: https://pad.carpentries.org/2026-03-02-um-dearborn # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document (e.g., https://pad.carpentries.org/2015-01-01-euphoria)
 material: "Python for Plotting, The Unix Shell, Intro to git & GitHub, Python for Data Analysis, Jupyter Notebook and Markdown"
