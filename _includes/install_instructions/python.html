@@ -108,13 +108,11 @@ https://jupyter-notebook.readthedocs.io/en/stable/notebook.html#browser-compatib
               </li>
             </ul>
           </li>
-          <li>In the Miniforge Prompt window, run the following commands:
-            <ul>
-              <li>Type <code>cd Downloads</code> and press <kbd>Enter</kbd></li>
-              <li>Type <code>conda env create -f carpentries_environment.yml</code> and press <kbd>Enter</kbd></li>
-            </ul>
+          <li><li>In the Miniforge Prompt window, run: <code>conda env create -f Downloads\carpentries_environment.yml</code> to create a conda environment from the downloaded file. Note it's a backslash <code>\</code> after typing <code>Download</code>. The installation may take a few minutes depending on your internet connection speed.</li>
           </li>
-          <li>The installation may take a few minutes depending on your internet connection speed. Once complete, you can close the Miniforge Prompt window.</li>
+          <li>In the Miniforge Prompt window, run: <code>conda activate carpentries</code> to activate the environment.</li>
+          <li>In the Miniforge Prompt window, run: <code>jupyter lab</code> to start JupyterLab. JupyterLab will open automatically in your browser.</li>
+          <li>Do not close the Miniforge Prompt window window while JupyterLab is running, as it works in the background as the Jupyter server. If you wish to close JupyterLab and shut down the Jupyter server, bring up the terminal to the front, and press <kbd>Control</kbd>+<kbd>C</kbd> twice.</li>
         </ol>
       </article>
       <article role="tabpanel" class="tab-pane" id="python-macos">
@@ -148,8 +146,10 @@ https://jupyter-notebook.readthedocs.io/en/stable/notebook.html#browser-compatib
               <li>Save the file to your <code>Downloads</code> folder.</li>
             </ul>
           </li>
-  	      <li>In the terminal, run: <code>conda env create -f ~/Downloads/carpentries_environment.yml</code></li>
-          <li>Close the terminal window.</li>
+	        <li>In the terminal, run: <code>conda env create -f ~/Downloads/carpentries_environment.yml</code> to create a conda environment from the downloaded file.</li>
+          <li>In the terminal, run: <code>conda activate carpentries</code> to activate the environment.</li>
+          <li>In the terminal, run: <code>jupyter lab</code> to start JupyterLab. JupyterLab will open automatically in your browser.</li>
+          <li>Do not close the terminal window while JupyterLab is running, as it works in the background as the Jupyter server. If you wish to close JupyterLab and shut down the Jupyter server, bring up the terminal to the front, and press <kbd>Control</kbd>+<kbd>C</kbd> twice.</li>
         </ol>
       </article>
       <article role="tabpanel" class="tab-pane" id="python-linux">
@@ -181,8 +181,10 @@ https://jupyter-notebook.readthedocs.io/en/stable/notebook.html#browser-compatib
               <li>Save the file to your <code>Downloads</code> folder.</li>
             </ul>
           </li>
-	        <li>In the terminal, run: <code>conda env create -f ~/Downloads/carpentries_environment.yml</code></li>
-          <li>Close the terminal window.</li>
+	        <li>In the terminal, run: <code>conda env create -f ~/Downloads/carpentries_environment.yml</code> to create a conda environment from the downloaded file.</li>
+          <li>In the terminal, run: <code>conda activate carpentries</code> to activate the environment.</li>
+          <li>In the terminal, run: <code>jupyter lab</code> to start JupyterLab. JupyterLab will open automatically in your browser.</li>
+          <li>Do not close the terminal window while JupyterLab is running, as it works in the background as the Jupyter server. If you wish to close JupyterLab and shut down the Jupyter server, bring up the terminal to the front, and press <kbd>Control</kbd>+<kbd>C</kbd> twice.</li>
         </ol>
       </article>
     </div>
